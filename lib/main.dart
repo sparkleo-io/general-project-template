@@ -9,6 +9,6 @@ void main() async {
   await initDI();
   SystemChrome.setPreferredOrientations([DeviceOrientation.landscapeLeft])
       .then((_) {
-    runApp(const VitalMonitoringSystemApp());
+    runApp(const YourProjectName());
   });
 }
